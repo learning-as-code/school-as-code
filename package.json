@@ -11,7 +11,8 @@
     "sac:render-readme": "./node_modules/.bin/render-readme",
     "sac:avatars": "./node_modules/.bin/avatars",
     "sac:projecting": "./node_modules/.bin/projecting",
-    "sac:collaborators": "./node_modules/.bin/collaborators"
+    "sac:collaborators": "./node_modules/.bin/collaborators",
+    "sac:update-materials": "./node_modules/.bin/update-materials"
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,5 @@
+# !!! this should also update the milestones
+
 name: update materials
 
 on: workflow_dispatch
@@ -12,8 +14,8 @@ jobs:
       - run: npm install
 
       - run:
-          'npm run sac:render-readme -- repo=${{ github.event.repository.name }}
-          user=${{ github.repository_owner }}'
+          'npm run sac:update-materials -- repo=${{ github.event.repository.name
+          }} user=${{ github.repository_owner }}'
 
       - name: commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.7.2

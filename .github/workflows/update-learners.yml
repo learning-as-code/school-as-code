@@ -13,6 +13,9 @@ jobs:
 
       - run: 'npm run sac:avatars'
       - run:
+          'npm run sac:collaborators -- repo=${{ github.event.repository.name }}
+          user=${{ github.repository_owner }}'
+      - run:
           'npm run sac:render-readme -- repo=${{ github.event.repository.name }}
           user=${{ github.repository_owner }}'
 
