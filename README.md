@@ -34,22 +34,3 @@ do all the work of setting up the readme with steps for your learning journey!
 <!-- BEGIN LEARNERS -->
 
 <!-- END LEARNERS -->
-
-## Code Checks
-
-1. `git clone git@github.com:school-as-code/school-as-code.git`
-2. `cd school-as-code`
-3. `npm install`
-
-Once everything is installed you will have these scripts:
-
-- `npm run format`: Formats the code with Prettier
-- `npm run lint:ls`: Lints file & folder naming conventions with `ls-lint`
-- `npm run lint:md`: Lints all Markdown with `markdownlint`
-- `npm run spell-check`: Checks the spelling in all files using `cspell`. You
-  can add new correct words to the [./.cspell.json](./.cspell.json) file so they
-  won't cause an error.
-
-## Continuous Integration
-
-Both linting checks are run when a PR is opened to `main`.
