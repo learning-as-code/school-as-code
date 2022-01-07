@@ -9,8 +9,6 @@
     "lint:md": "markdownlint --ignore node_modules --config ./.markdownlint.jsonc --fix ./ ",
     "sac:full-setup": "./node_modules/.bin/full-setup",
     "sac:render-readme": "./node_modules/.bin/render-readme",
-    "sac:avatars": "./node_modules/.bin/avatars",
-    "sac:projecting": "./node_modules/.bin/projecting",
     "sac:collaborators": "./node_modules/.bin/collaborators",
     "sac:update-materials": "./node_modules/.bin/update-materials"
   },
@@ -29,6 +27,6 @@
     "cspell": "^5.9.0",
     "markdownlint-cli": "^0.28.1",
     "prettier": "^2.3.2",
-    "@school-as-code/school-as-code-package": "^0.0.8"
+    "@school-as-code/school-as-code-package": "^1.0.0"
   }
 }
