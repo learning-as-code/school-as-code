@@ -1,5 +1,8 @@
-description: Gitting
+description: This is a collection of simple git exercises to actually try out some of the different commands.
+
+# this is used to decide whether to render direct links to the gitpod-based activities in the main readme
 gitpod: true
+
 path:
   - name: Merge-a-Matic
     description: >-
@@ -35,10 +38,13 @@ path:
       across the git filter-branch command...?
     url: https://github.com/lpmi-13/tree-slayer
     milestone: 4
+
+# this is used to set up a project board with issues turned into cards
 board:
+  # the number is used internally by GitHub to associate a project with a board
   number: 26
   name: school
-  description: ''
+  description: 'project board to track progress of the learning activities'
   columns:
     - TODO
     - DOING
